@@ -14,6 +14,7 @@
 		743126F02AE74B970025BB3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743126EF2AE74B970025BB3E /* Preview Assets.xcassets */; };
 		743126F82AE75CCC0025BB3E /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743126F72AE75CCC0025BB3E /* Tag.swift */; };
 		743126FA2AE75CF30025BB3E /* RGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743126F92AE75CF30025BB3E /* RGBColor.swift */; };
+		743126FC2AE804E80025BB3E /* DetailTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743126FB2AE804E80025BB3E /* DetailTodoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		743126EF2AE74B970025BB3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		743126F72AE75CCC0025BB3E /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		743126F92AE75CF30025BB3E /* RGBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBColor.swift; sourceTree = "<group>"; };
+		743126FB2AE804E80025BB3E /* DetailTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTodoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				743126E62AE74B960025BB3E /* ToDoAppPracticeKPApp.swift */,
 				743126E82AE74B960025BB3E /* ContentView.swift */,
+				743126FB2AE804E80025BB3E /* DetailTodoView.swift */,
 				743126F62AE75C940025BB3E /* Model */,
 				743126EC2AE74B970025BB3E /* Assets.xcassets */,
 				743126EE2AE74B970025BB3E /* Preview Content */,
@@ -157,6 +160,7 @@
 				743126F82AE75CCC0025BB3E /* Tag.swift in Sources */,
 				743126FA2AE75CF30025BB3E /* RGBColor.swift in Sources */,
 				743126E92AE74B960025BB3E /* ContentView.swift in Sources */,
+				743126FC2AE804E80025BB3E /* DetailTodoView.swift in Sources */,
 				743126EB2AE74B960025BB3E /* Todo.swift in Sources */,
 				743126E72AE74B960025BB3E /* ToDoAppPracticeKPApp.swift in Sources */,
 			);
