@@ -6,3 +6,18 @@
 //
 
 import Foundation
+import SwiftData
+
+@Model
+class Tag {
+    var name: String
+    
+    var todos: [Todo]?
+    
+    var color: RGBColor
+    
+    init(name: String, color: RGBColor) {
+        self.name = name
+        self.color = color
+    }
+}
