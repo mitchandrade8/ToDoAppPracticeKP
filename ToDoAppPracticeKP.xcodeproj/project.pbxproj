@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		743126E72AE74B960025BB3E /* ToDoAppPracticeKPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743126E62AE74B960025BB3E /* ToDoAppPracticeKPApp.swift */; };
 		743126E92AE74B960025BB3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743126E82AE74B960025BB3E /* ContentView.swift */; };
-		743126EB2AE74B960025BB3E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743126EA2AE74B960025BB3E /* Item.swift */; };
+		743126EB2AE74B960025BB3E /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743126EA2AE74B960025BB3E /* Todo.swift */; };
 		743126ED2AE74B970025BB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743126EC2AE74B970025BB3E /* Assets.xcassets */; };
 		743126F02AE74B970025BB3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743126EF2AE74B970025BB3E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		743126E32AE74B960025BB3E /* ToDoAppPracticeKP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoAppPracticeKP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		743126E62AE74B960025BB3E /* ToDoAppPracticeKPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppPracticeKPApp.swift; sourceTree = "<group>"; };
 		743126E82AE74B960025BB3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		743126EA2AE74B960025BB3E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		743126EA2AE74B960025BB3E /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		743126EC2AE74B970025BB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		743126EF2AE74B970025BB3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +55,7 @@
 			children = (
 				743126E62AE74B960025BB3E /* ToDoAppPracticeKPApp.swift */,
 				743126E82AE74B960025BB3E /* ContentView.swift */,
-				743126EA2AE74B960025BB3E /* Item.swift */,
+				743126EA2AE74B960025BB3E /* Todo.swift */,
 				743126EC2AE74B970025BB3E /* Assets.xcassets */,
 				743126EE2AE74B970025BB3E /* Preview Content */,
 			);
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				743126E92AE74B960025BB3E /* ContentView.swift in Sources */,
-				743126EB2AE74B960025BB3E /* Item.swift in Sources */,
+				743126EB2AE74B960025BB3E /* Todo.swift in Sources */,
 				743126E72AE74B960025BB3E /* ToDoAppPracticeKPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
