@@ -38,8 +38,11 @@ class Tag {
     
     var todos: [Todo]?
     
-    init(name: String) {
+    var color: RGBColor
+    
+    init(name: String, color: RGBColor) {
         self.name = name
+        self.color = color
     }
 }
 
