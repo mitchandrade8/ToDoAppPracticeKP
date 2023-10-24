@@ -28,5 +28,8 @@ struct ToDoAppPracticeKPApp: App {
             ContentView()
         }
         .modelContainer(for: Todo.self)
+        
+        // Another examples
+        // .modelContainer(for: [Todo.self, Tag.self])
     }
 }
